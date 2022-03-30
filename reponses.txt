@@ -1,0 +1,7 @@
+Qu'est-ce qu'un bot ?
+
+Un bot est une application logicielle permettant d'automatiser certaines tâches.
+
+Qu'est ce que le logging. À quoi servent les logs ?
+
+Le logging est le fait de conserver une trace de commandes, requêtes... souvent sous la forme d'un fichier texte. Les logs permettent d'analyser une attaque DDOS par exemple.
