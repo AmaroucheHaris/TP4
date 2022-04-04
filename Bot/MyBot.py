@@ -15,7 +15,6 @@ class MyBot(Client):
 
         #logger = Logger()
         logging.basicConfig(filename='logs.log', level=logging.DEBUG, format='%(asctime)s %(message)s')
-        #self.run("OTU4Njg0MTU1NDIyNTkzMDU0.YkQ6Mg.2vXhRMfH-xONO6TyREPessiy_M8")
         self.run(token)
         
 
