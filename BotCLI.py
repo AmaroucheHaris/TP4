@@ -26,4 +26,8 @@ async def delete(ctx, number: int):
     
     for each_message in messages:
         await each_message.delete()
+
+@bot.command(name="help")
+async def help(ctx):
+    await ctx.send("'Salut' pour que le bot te réponde, 'reine des neiges' pour qu'il chante, 'mp' pour qu'il t'envoie un message privé et 'citrouille' pour qu'il t'envoie une image de citrouille.")
 """
